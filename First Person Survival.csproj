@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68F8D613-1FB7-ACCA-7449-356AF51205C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2017.2.0b11</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;MAPMAGIC;WDEBUG;USING_UNISTORM</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;MAPMAGIC;WDEBUG;USING_UNISTORM</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>Library\UnityAssemblies\UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\_Scripts\AS_UnistormNetworkHelper.cs" />
+    <Compile Include="Assets\_Scripts\Detatch.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\CameraController.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\CharController.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\CharRover.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\FlybyController.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\GeneratingLabel.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\GuiController.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\LodDisable.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\MoveSun.cs" />
+    <Compile Include="Assets\MapMagic\Demo\Scripts\NearPlaneIncrease.cs" />
+    <Compile Include="Assets\MapMagic\Generators\CTSOutputGenerator.cs" />
+    <Compile Include="Assets\MapMagic\Generators\LegacyGenerators.cs" />
+    <Compile Include="Assets\MapMagic\Generators\MatrixGenerators.cs" />
+    <Compile Include="Assets\MapMagic\Generators\MegaSplatOutput.cs" />
+    <Compile Include="Assets\MapMagic\Generators\ObjectGenerators.cs" />
+    <Compile Include="Assets\MapMagic\Generators\OutputGenerators.cs" />
+    <Compile Include="Assets\MapMagic\Generators\RTPOutputGenerator.cs" />
+    <Compile Include="Assets\MapMagic\Generators\SampleGenerator.cs" />
+    <Compile Include="Assets\MapMagic\Generators\VoxelandOutputs.cs" />
+    <Compile Include="Assets\MapMagic\Main\ArrayTools.cs" />
+    <Compile Include="Assets\MapMagic\Main\Chunk.cs" />
+    <Compile Include="Assets\MapMagic\Main\ChunkGrid.cs" />
+    <Compile Include="Assets\MapMagic\Main\Curve.cs" />
+    <Compile Include="Assets\MapMagic\Main\CustomSerialization.cs" />
+    <Compile Include="Assets\MapMagic\Main\DictTuple.cs" />
+    <Compile Include="Assets\MapMagic\Main\Erosion.cs" />
+    <Compile Include="Assets\MapMagic\Main\Extensions.cs" />
+    <Compile Include="Assets\MapMagic\Main\Generator.cs" />
+    <Compile Include="Assets\MapMagic\Main\GeneratorsAsset.cs" />
+    <Compile Include="Assets\MapMagic\Main\Geometry.cs" />
+    <Compile Include="Assets\MapMagic\Main\InstantUpdater.cs" />
+    <Compile Include="Assets\MapMagic\Main\Layout.cs" />
+    <Compile Include="Assets\MapMagic\Main\Matrix.cs" />
+    <Compile Include="Assets\MapMagic\Main\Matrix2.cs" />
+    <Compile Include="Assets\MapMagic\Main\Matrix3.cs" />
+    <Compile Include="Assets\MapMagic\Main\MatrixAsset.cs" />
+    <Compile Include="Assets\MapMagic\Main\MeshWrapper.cs" />
+    <Compile Include="Assets\MapMagic\Main\Noise.cs" />
+    <Compile Include="Assets\MapMagic\Main\ObjectPool.cs" />
+    <Compile Include="Assets\MapMagic\Main\Preview.cs" />
+    <Compile Include="Assets\MapMagic\Main\Random.cs" />
+    <Compile Include="Assets\MapMagic\Main\Serializer.cs" />
+    <Compile Include="Assets\MapMagic\Main\SpatialHash.cs" />
+    <Compile Include="Assets\MapMagic\Main\ThreadWorker.cs" />
+    <Compile Include="Assets\MapMagic\Main\WeldTerrains.cs" />
+    <Compile Include="Assets\MapMagic\Main\WorldShifter.cs" />
+    <Compile Include="Assets\MapMagic\MapMagic.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Character Controller\HideMouse.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Character Controller\UniStormCharacterController.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Character Controller\UniStormMouseLook.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Dynamic Snow\DynamicSnow_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Dynamic Snow\DynamicSnow_Height_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Effect while Freezing\CheckTemperature.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Event Examples\ExampleEvents.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Plant Growth\HarvestCheck.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Plant Growth\PlantGrowthSystem.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Player Vitals\PlayerVitalsExample.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Random Weather on Start\RandomWeather.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Random Weather on Start\RandomWeatherOnStart.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Save and Load UniStorm Data\AutoSave_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Save and Load UniStorm Data\SavePlayerData_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Spawn Player OnStart\GetUniStormComponents_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Spawn Player OnStart\SpawnPlayer.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Spawn Player OnStart\SunShaftPosition.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\UniStorm Clock\UniStorm_Clock_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\UniStorm Demo UI\UniStormDemoUI.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Weather Forecaster\UniStormWeatherForecast.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Weather Zone\Climate_Zone_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Examples\Weather Zone\WeatherZoneExample_C.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Helpers\DrawSolidCube.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Helpers\LightningBolt.cs" />
+    <Compile Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\UniStorm Systems\UniStormWeatherSystem_C.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Character\MouseLookMobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Dynamic Snow\DynamicSnow_C_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Player Vitals\PlayerVitalsExample_C_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Save and Load UniStorm Data\SavePlayerData_C_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Spawn Player OnStart\GetUniStormComponents_C_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Spawn Player OnStart\SpawnPlayer_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Timed Event\UniStormTimeEventExample_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Mobile Examples\Weather Zone\WeatherZoneExample_C_Mobile.cs" />
+    <Compile Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\UniStorm Systems\UniStormMobileWeatherSystem_C.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\CharacterCreator\CharacterBadge.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\CharacterCreator\CharactersBadgesRefresher.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\CharacterCreator\GUICharacterPreset.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\CharacterCreator\GUICharacterPresetLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\AfterDeadHUD.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\CharacterHUDCanvas.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\GameMenuCanvas.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\MainMenuManager.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\NPCDialogManager.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\PanelInstance.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\PanelsManager.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Common\PopUpInfo.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DragIconHanddle.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DragItem.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DragShortcut.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DropShortcut.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DropStockArea.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DropSwapItem.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\DropSwapShortcut.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUICraft.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUICrafting.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUICraftListLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUIIStockItemLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUIItemCollector.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUIItemData.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUIItemDataNeed.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUIItemLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\GUIPlayerItemLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\TooltipDetails.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\TooltipInstance.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\TooltipsManager.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\TooltipTrade.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\TooltipTrigger.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Inventory\TooltipUsing.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\KillBadge\GUIKillBadge.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\KillBadge\GUIKillBadgeManager.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\LevelSelector\GUILevelPresetSelector.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\LevelSelector\GUILevelPresetsLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Network\ConnectingEvent.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Network\ConnectionInfo.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Network\GUIGameRoom.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Network\GUIGameRoomLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Scoreboard\GUIScoreBar.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Scoreboard\GUIScoreBarLoader.cs" />
+    <Compile Include="Assets\UnitZ\GUI\Elements\Scoreboard\GUITeamBar.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\AI\AICharacterController.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\AI\AICharacterControllerNav.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\AI\AIManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\AI\EnemySpawner.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\AI\NavAgent.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterAnimation.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterCreator\CharacterCreator.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterCreator\CharacterCreatorCanvas.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterCreator\CharacterManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterDriver.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterFootStep.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterHUD.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterInventory.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterItemDroper.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterLiving.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterMotor.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\CharacterSystem.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\FPSController\FPSController.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\FPSController\FPSInputController.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\FPSController\FPSRayActive.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\Presets\AnimalCharacter.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\Presets\HumanCharacter.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\Presets\PlayerCharacter.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\RagdollReplace.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\UIInventory.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\CharacterSystem\ValueBar.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\BoundFX.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\CameraSwing.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\ChatLog.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\DayNightCycle.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\FadeComponent.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\FPSCamera.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\Ladder.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\LinkActive.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\MouseLock.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\MouseLooking.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\NextScene.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\PlacingArea.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\Popup.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\Rotation.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Components\StyleManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Damage\DamageBase.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Damage\DamageManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Damage\Explosion.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Damage\HitMark.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Damage\Projectile.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Damage\ProjectileMove.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\EnvironmentManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\GameManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\GameMenu.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\GameNetwork.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\Mod\DeathMatchMod.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\NetworkSyncObject.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\PlayerConnector.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\PlayerManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\PlayerSave.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\PlayersManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\PlayerSpawner.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\PlayerView.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\SceneManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\SceneSave.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\ScoreManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\SpectreCamera.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\TreesManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Game\UnitZManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ApplyFood.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\DoorFrame.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\DoorOpener.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\FuelApplying.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ItemCooker.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ItemDropAfterDead.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ItemShop.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ItemSpawner.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ItemStocker.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ObjectPlacing.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ObjectSpawn.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ObjectsSpawner.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\ObjectTrigger.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\StickerEffect.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\TreasureBox.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Components\WeaponEffect.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Craft\ItemCrafter.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\Craft\ItemCrafterManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemData\ItemBackpack.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemData\ItemCollector.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemData\ItemData.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemData\ItemPickup.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemFPSView\Crosshair.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemFPSView\FPSItemEquipment.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemFPSView\FPSItemPlacing.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemFPSView\FPSItemThrow.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemFPSView\FPSItemUsing.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemFPSView\FPSWeaponEquipment.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemManager.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemView\ItemEquipment.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemView\ItemSticker.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemView\ItemToggleEquipment.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Item\ItemView\ItemWeaponEquipment.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\AntiRoll.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\Car.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\CarControl.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\CarDamage.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\Seat.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\Vehicle.cs" />
+    <Compile Include="Assets\UnitZ\Scripts\Vehicles\WheelAlignment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Izzy\Document\readme.txt" />
+    <None Include="Assets\MapMagic\Shaders\TerrainPreview.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\UniStorm (Desktop)\Additional Credit\Credit.txt" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\DoubleSided.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Light Clouds (No Fog) (High).shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Light Clouds (No Fog) (Low).shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Light Clouds (No Fog) (Med).shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Snow.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Storm Clouds (Untity 5).shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Lightning.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Mist (Unity 5).shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Moon.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Non-Dynamic Clouds (Unity 5).shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Non-Dynamic Light Clouds.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Procedural Skbox.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Rain.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Snow.shader" />
+    <None Include="Assets\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Stars.shader" />
+    <None Include="Assets\UniStorm (Desktop)\UniStorm Settings\UniStorm Default Settings.txt" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Dynamic Light Clouds Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Dynamic Snow Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Dynamic Storm Clouds Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Mist Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Mobile Stars.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Moon Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Non-Dynamic Clouds Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Non-Dynamic Light Clouds Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Procedural Skbox Mobile.shader" />
+    <None Include="Assets\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Rain Mobile.shader" />
+    <None Include="Assets\UnitZ\Sources\Shader\Doubleside.shader" />
+    <None Include="Assets\UnitZ\Sources\Shader\SkyBoxBlended.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
