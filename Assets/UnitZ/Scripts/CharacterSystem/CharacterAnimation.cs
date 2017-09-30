@@ -61,11 +61,11 @@ public class CharacterAnimation : NetworkBehaviour {
 	void Update () {
 		if(animator == null || character == null)
 			return;
-		
-		// this is for legacy animation
-		// if you using Mecanim in unity Pro, 
-		//if(headCamera)
-			// you can use animator.SetLookAtPosition (headCamera.transform.forward * 10) instead.
+
+        // this is for legacy animation
+        // if you using Mecanim in unity Pro, 
+        if (headCamera)
+            animator.SetLookAtPosition(headCamera.transform.forward * 10);
 		
 		if(upperSpine != null){
 			
