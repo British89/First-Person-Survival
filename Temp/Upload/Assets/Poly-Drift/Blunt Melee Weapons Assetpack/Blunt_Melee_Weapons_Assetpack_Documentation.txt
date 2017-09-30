@@ -1,0 +1,31 @@
+PolyDrift
+
+support: info@Polydrift.com
+
+Thank you for your Purchase!
+
+If you have any questions regarding this product, contact us: Unity.PolyDrift@gmail.com
+If you have ideas regarding new models or changes to existing models, feel free to contact us.
+We will do our best to satisfy your requests.
+Please leave a review, it really helps us find out what aspects of this assetpack you love and what aspects we should improve.
+
+
+This is the Documentation of the: Blunt Melee Weapons Assetpack
+
+Have Fun!
+
+
+
+Includes: 
+	
+	15	models (5 meshes with 3 LODs)
+	5 	Prefabs alltogether
+
+	consisting of:
+
+	5	Blunt Melee Weapons
+	5	Materials
+	15	Textures all in 4K
+	
+	made using the PBR workflow	Albedo/MetallicSmoothness/Normal	
+	

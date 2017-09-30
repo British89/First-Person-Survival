@@ -233,6 +233,8 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\AS_UnistormNetworkHelper.cs" />
     <Compile Include="Assets\_Scripts\Detatch.cs" />
+    <Compile Include="Assets\HandyHands\scripts\showcasecam.cs" />
+    <Compile Include="Assets\HandyHands\scripts\VisualizeJoint.cs" />
     <Compile Include="Assets\MapMagic\Demo\Scripts\CameraController.cs" />
     <Compile Include="Assets\MapMagic\Demo\Scripts\CharController.cs" />
     <Compile Include="Assets\MapMagic\Demo\Scripts\CharRover.cs" />
@@ -503,8 +505,11 @@
     <Compile Include="Assets\UnitZ\Scripts\Vehicles\WheelAlignment.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HandyHands\readme.txt" />
+    <None Include="Assets\HandyHands\shaders\handyskin.shader" />
     <None Include="Assets\Izzy\Document\readme.txt" />
     <None Include="Assets\MapMagic\Shaders\TerrainPreview.shader" />
+    <None Include="Assets\Poly-Drift\Blunt Melee Weapons Assetpack\Blunt_Melee_Weapons_Assetpack_Documentation.txt" />
     <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
     <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />

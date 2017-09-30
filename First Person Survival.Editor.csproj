@@ -342,8 +342,11 @@
     <Compile Include="Assets\UnitZ\Editor\EditorSetting.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HandyHands\readme.txt" />
+    <None Include="Assets\HandyHands\shaders\handyskin.shader" />
     <None Include="Assets\Izzy\Document\readme.txt" />
     <None Include="Assets\MapMagic\Shaders\TerrainPreview.shader" />
+    <None Include="Assets\Poly-Drift\Blunt Melee Weapons Assetpack\Blunt_Melee_Weapons_Assetpack_Documentation.txt" />
     <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
     <None Include="Assets\Simple_Day_and_Night_Cycle\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />

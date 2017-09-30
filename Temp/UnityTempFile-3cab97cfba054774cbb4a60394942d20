@@ -1,0 +1,442 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:Library/FacebookSDK/Facebook.Unity.Settings.dll
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/shaun/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@0.0.16/UnityEngine.Advertisements.dll
+-r:C:/Users/shaun/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.17/UnityEngine.Analytics.dll
+-r:C:/Users/shaun/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.18/UnityEngine.Purchasing.dll
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity 2017.2.0b11/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:MAPMAGIC
+-define:WDEBUG
+-define:USING_UNISTORM
+Assets/_Scripts/AS_UnistormNetworkHelper.cs
+Assets/_Scripts/Detatch.cs
+Assets/HandyHands/scripts/showcasecam.cs
+Assets/HandyHands/scripts/VisualizeJoint.cs
+Assets/MapMagic/Demo/Scripts/CameraController.cs
+Assets/MapMagic/Demo/Scripts/CharController.cs
+Assets/MapMagic/Demo/Scripts/CharRover.cs
+Assets/MapMagic/Demo/Scripts/FlybyController.cs
+Assets/MapMagic/Demo/Scripts/GeneratingLabel.cs
+Assets/MapMagic/Demo/Scripts/GuiController.cs
+Assets/MapMagic/Demo/Scripts/LodDisable.cs
+Assets/MapMagic/Demo/Scripts/MoveSun.cs
+Assets/MapMagic/Demo/Scripts/NearPlaneIncrease.cs
+Assets/MapMagic/Generators/CTSOutputGenerator.cs
+Assets/MapMagic/Generators/LegacyGenerators.cs
+Assets/MapMagic/Generators/MatrixGenerators.cs
+Assets/MapMagic/Generators/MegaSplatOutput.cs
+Assets/MapMagic/Generators/ObjectGenerators.cs
+Assets/MapMagic/Generators/OutputGenerators.cs
+Assets/MapMagic/Generators/RTPOutputGenerator.cs
+Assets/MapMagic/Generators/SampleGenerator.cs
+Assets/MapMagic/Generators/VoxelandOutputs.cs
+Assets/MapMagic/Main/ArrayTools.cs
+Assets/MapMagic/Main/Chunk.cs
+Assets/MapMagic/Main/ChunkGrid.cs
+Assets/MapMagic/Main/Curve.cs
+Assets/MapMagic/Main/CustomSerialization.cs
+Assets/MapMagic/Main/DictTuple.cs
+Assets/MapMagic/Main/Erosion.cs
+Assets/MapMagic/Main/Extensions.cs
+Assets/MapMagic/Main/Generator.cs
+Assets/MapMagic/Main/GeneratorsAsset.cs
+Assets/MapMagic/Main/Geometry.cs
+Assets/MapMagic/Main/InstantUpdater.cs
+Assets/MapMagic/Main/Layout.cs
+Assets/MapMagic/Main/Matrix.cs
+Assets/MapMagic/Main/Matrix2.cs
+Assets/MapMagic/Main/Matrix3.cs
+Assets/MapMagic/Main/MatrixAsset.cs
+Assets/MapMagic/Main/MeshWrapper.cs
+Assets/MapMagic/Main/Noise.cs
+Assets/MapMagic/Main/ObjectPool.cs
+Assets/MapMagic/Main/Preview.cs
+Assets/MapMagic/Main/Random.cs
+Assets/MapMagic/Main/Serializer.cs
+Assets/MapMagic/Main/SpatialHash.cs
+Assets/MapMagic/Main/ThreadWorker.cs
+Assets/MapMagic/Main/WeldTerrains.cs
+Assets/MapMagic/Main/WorldShifter.cs
+Assets/MapMagic/MapMagic.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Antialiasing.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Bloom.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/BloomOptimized.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Blur.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/BlurOptimized.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ContrastStretch.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/CreaseShading.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/DepthOfField.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/EdgeDetection.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Fisheye.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/GlobalFog.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Grayscale.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ImageEffectBase.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ImageEffects.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/MotionBlur.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/NoiseAndGrain.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/PostEffectsBase.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/PostEffectsHelper.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Quads.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ScreenOverlay.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/SepiaTone.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/SunShafts.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/TiltShift.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Tonemapping.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Triangles.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Twirl.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs
+Assets/Simple_Day_and_Night_Cycle/Effects/ImageEffects/Scripts/Vortex.cs
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/Character Controller/HideMouse.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/Character Controller/UniStormCharacterController.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/Character Controller/UniStormMouseLook.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Dynamic Snow/DynamicSnow_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Dynamic Snow/DynamicSnow_Height_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Effect while Freezing/CheckTemperature.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Event Examples/ExampleEvents.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Plant Growth/HarvestCheck.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Plant Growth/PlantGrowthSystem.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Player Vitals/PlayerVitalsExample.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Random Weather on Start/RandomWeather.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Random Weather on Start/RandomWeatherOnStart.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Save and Load UniStorm Data/AutoSave_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Save and Load UniStorm Data/SavePlayerData_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Spawn Player OnStart/GetUniStormComponents_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Spawn Player OnStart/SpawnPlayer.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Spawn Player OnStart/SunShaftPosition.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/UniStorm Clock/UniStorm_Clock_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/UniStorm Demo UI/UniStormDemoUI.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Weather Forecaster/UniStormWeatherForecast.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Weather Zone/Climate_Zone_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Examples/Weather Zone/WeatherZoneExample_C.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Helpers/DrawSolidCube.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Helpers/LightningBolt.cs"
+"Assets/UniStorm (Desktop)/Scripts (Desktop)/UniStorm Systems/UniStormWeatherSystem_C.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/Character/MouseLookMobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Dynamic Snow/DynamicSnow_C_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Player Vitals/PlayerVitalsExample_C_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Save and Load UniStorm Data/SavePlayerData_C_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Spawn Player OnStart/GetUniStormComponents_C_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Spawn Player OnStart/SpawnPlayer_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Timed Event/UniStormTimeEventExample_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Mobile Examples/Weather Zone/WeatherZoneExample_C_Mobile.cs"
+"Assets/UniStorm (Mobile)/Scripts (Mobile)/UniStorm Systems/UniStormMobileWeatherSystem_C.cs"
+Assets/UnitZ/GUI/Elements/CharacterCreator/CharacterBadge.cs
+Assets/UnitZ/GUI/Elements/CharacterCreator/CharactersBadgesRefresher.cs
+Assets/UnitZ/GUI/Elements/CharacterCreator/GUICharacterPreset.cs
+Assets/UnitZ/GUI/Elements/CharacterCreator/GUICharacterPresetLoader.cs
+Assets/UnitZ/GUI/Elements/Common/AfterDeadHUD.cs
+Assets/UnitZ/GUI/Elements/Common/CharacterHUDCanvas.cs
+Assets/UnitZ/GUI/Elements/Common/GameMenuCanvas.cs
+Assets/UnitZ/GUI/Elements/Common/MainMenuManager.cs
+Assets/UnitZ/GUI/Elements/Common/NPCDialogManager.cs
+Assets/UnitZ/GUI/Elements/Common/PanelInstance.cs
+Assets/UnitZ/GUI/Elements/Common/PanelsManager.cs
+Assets/UnitZ/GUI/Elements/Common/PopUpInfo.cs
+Assets/UnitZ/GUI/Elements/Inventory/DragIconHanddle.cs
+Assets/UnitZ/GUI/Elements/Inventory/DragItem.cs
+Assets/UnitZ/GUI/Elements/Inventory/DragShortcut.cs
+Assets/UnitZ/GUI/Elements/Inventory/DropShortcut.cs
+Assets/UnitZ/GUI/Elements/Inventory/DropStockArea.cs
+Assets/UnitZ/GUI/Elements/Inventory/DropSwapItem.cs
+Assets/UnitZ/GUI/Elements/Inventory/DropSwapShortcut.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUICraft.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUICrafting.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUICraftListLoader.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUIIStockItemLoader.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUIItemCollector.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUIItemData.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUIItemDataNeed.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUIItemLoader.cs
+Assets/UnitZ/GUI/Elements/Inventory/GUIPlayerItemLoader.cs
+Assets/UnitZ/GUI/Elements/Inventory/TooltipDetails.cs
+Assets/UnitZ/GUI/Elements/Inventory/TooltipInstance.cs
+Assets/UnitZ/GUI/Elements/Inventory/TooltipsManager.cs
+Assets/UnitZ/GUI/Elements/Inventory/TooltipTrade.cs
+Assets/UnitZ/GUI/Elements/Inventory/TooltipTrigger.cs
+Assets/UnitZ/GUI/Elements/Inventory/TooltipUsing.cs
+Assets/UnitZ/GUI/Elements/KillBadge/GUIKillBadge.cs
+Assets/UnitZ/GUI/Elements/KillBadge/GUIKillBadgeManager.cs
+Assets/UnitZ/GUI/Elements/LevelSelector/GUILevelPresetSelector.cs
+Assets/UnitZ/GUI/Elements/LevelSelector/GUILevelPresetsLoader.cs
+Assets/UnitZ/GUI/Elements/Network/ConnectingEvent.cs
+Assets/UnitZ/GUI/Elements/Network/ConnectionInfo.cs
+Assets/UnitZ/GUI/Elements/Network/GUIGameRoom.cs
+Assets/UnitZ/GUI/Elements/Network/GUIGameRoomLoader.cs
+Assets/UnitZ/GUI/Elements/Scoreboard/GUIScoreBar.cs
+Assets/UnitZ/GUI/Elements/Scoreboard/GUIScoreBarLoader.cs
+Assets/UnitZ/GUI/Elements/Scoreboard/GUITeamBar.cs
+Assets/UnitZ/Scripts/AI/AICharacterController.cs
+Assets/UnitZ/Scripts/AI/AICharacterControllerNav.cs
+Assets/UnitZ/Scripts/AI/AIManager.cs
+Assets/UnitZ/Scripts/AI/EnemySpawner.cs
+Assets/UnitZ/Scripts/AI/NavAgent.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterAnimation.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterCreator/CharacterCreator.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterCreator/CharacterCreatorCanvas.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterCreator/CharacterManager.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterDriver.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterFootStep.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterHUD.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterInventory.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterItemDroper.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterLiving.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterMotor.cs
+Assets/UnitZ/Scripts/CharacterSystem/CharacterSystem.cs
+Assets/UnitZ/Scripts/CharacterSystem/FPSController/FPSController.cs
+Assets/UnitZ/Scripts/CharacterSystem/FPSController/FPSInputController.cs
+Assets/UnitZ/Scripts/CharacterSystem/FPSController/FPSRayActive.cs
+Assets/UnitZ/Scripts/CharacterSystem/Presets/AnimalCharacter.cs
+Assets/UnitZ/Scripts/CharacterSystem/Presets/HumanCharacter.cs
+Assets/UnitZ/Scripts/CharacterSystem/Presets/PlayerCharacter.cs
+Assets/UnitZ/Scripts/CharacterSystem/RagdollReplace.cs
+Assets/UnitZ/Scripts/CharacterSystem/UIInventory.cs
+Assets/UnitZ/Scripts/CharacterSystem/ValueBar.cs
+Assets/UnitZ/Scripts/Components/BoundFX.cs
+Assets/UnitZ/Scripts/Components/CameraSwing.cs
+Assets/UnitZ/Scripts/Components/ChatLog.cs
+Assets/UnitZ/Scripts/Components/DayNightCycle.cs
+Assets/UnitZ/Scripts/Components/FadeComponent.cs
+Assets/UnitZ/Scripts/Components/FPSCamera.cs
+Assets/UnitZ/Scripts/Components/Ladder.cs
+Assets/UnitZ/Scripts/Components/LinkActive.cs
+Assets/UnitZ/Scripts/Components/MouseLock.cs
+Assets/UnitZ/Scripts/Components/MouseLooking.cs
+Assets/UnitZ/Scripts/Components/NextScene.cs
+Assets/UnitZ/Scripts/Components/PlacingArea.cs
+Assets/UnitZ/Scripts/Components/Popup.cs
+Assets/UnitZ/Scripts/Components/Rotation.cs
+Assets/UnitZ/Scripts/Components/StyleManager.cs
+Assets/UnitZ/Scripts/Damage/DamageBase.cs
+Assets/UnitZ/Scripts/Damage/DamageManager.cs
+Assets/UnitZ/Scripts/Damage/Explosion.cs
+Assets/UnitZ/Scripts/Damage/HitMark.cs
+Assets/UnitZ/Scripts/Damage/Projectile.cs
+Assets/UnitZ/Scripts/Damage/ProjectileMove.cs
+Assets/UnitZ/Scripts/Game/EnvironmentManager.cs
+Assets/UnitZ/Scripts/Game/GameManager.cs
+Assets/UnitZ/Scripts/Game/GameMenu.cs
+Assets/UnitZ/Scripts/Game/GameNetwork.cs
+Assets/UnitZ/Scripts/Game/Mod/DeathMatchMod.cs
+Assets/UnitZ/Scripts/Game/NetworkSyncObject.cs
+Assets/UnitZ/Scripts/Game/PlayerConnector.cs
+Assets/UnitZ/Scripts/Game/PlayerManager.cs
+Assets/UnitZ/Scripts/Game/PlayerSave.cs
+Assets/UnitZ/Scripts/Game/PlayersManager.cs
+Assets/UnitZ/Scripts/Game/PlayerSpawner.cs
+Assets/UnitZ/Scripts/Game/PlayerView.cs
+Assets/UnitZ/Scripts/Game/SceneManager.cs
+Assets/UnitZ/Scripts/Game/SceneSave.cs
+Assets/UnitZ/Scripts/Game/ScoreManager.cs
+Assets/UnitZ/Scripts/Game/SpectreCamera.cs
+Assets/UnitZ/Scripts/Game/TreesManager.cs
+Assets/UnitZ/Scripts/Game/UnitZManager.cs
+Assets/UnitZ/Scripts/Item/Components/ApplyFood.cs
+Assets/UnitZ/Scripts/Item/Components/DoorFrame.cs
+Assets/UnitZ/Scripts/Item/Components/DoorOpener.cs
+Assets/UnitZ/Scripts/Item/Components/FuelApplying.cs
+Assets/UnitZ/Scripts/Item/Components/ItemCooker.cs
+Assets/UnitZ/Scripts/Item/Components/ItemDropAfterDead.cs
+Assets/UnitZ/Scripts/Item/Components/ItemShop.cs
+Assets/UnitZ/Scripts/Item/Components/ItemSpawner.cs
+Assets/UnitZ/Scripts/Item/Components/ItemStocker.cs
+Assets/UnitZ/Scripts/Item/Components/ObjectPlacing.cs
+Assets/UnitZ/Scripts/Item/Components/ObjectSpawn.cs
+Assets/UnitZ/Scripts/Item/Components/ObjectsSpawner.cs
+Assets/UnitZ/Scripts/Item/Components/ObjectTrigger.cs
+Assets/UnitZ/Scripts/Item/Components/StickerEffect.cs
+Assets/UnitZ/Scripts/Item/Components/TreasureBox.cs
+Assets/UnitZ/Scripts/Item/Components/WeaponEffect.cs
+Assets/UnitZ/Scripts/Item/Craft/ItemCrafter.cs
+Assets/UnitZ/Scripts/Item/Craft/ItemCrafterManager.cs
+Assets/UnitZ/Scripts/Item/ItemData/ItemBackpack.cs
+Assets/UnitZ/Scripts/Item/ItemData/ItemCollector.cs
+Assets/UnitZ/Scripts/Item/ItemData/ItemData.cs
+Assets/UnitZ/Scripts/Item/ItemData/ItemPickup.cs
+Assets/UnitZ/Scripts/Item/ItemFPSView/Crosshair.cs
+Assets/UnitZ/Scripts/Item/ItemFPSView/FPSItemEquipment.cs
+Assets/UnitZ/Scripts/Item/ItemFPSView/FPSItemPlacing.cs
+Assets/UnitZ/Scripts/Item/ItemFPSView/FPSItemThrow.cs
+Assets/UnitZ/Scripts/Item/ItemFPSView/FPSItemUsing.cs
+Assets/UnitZ/Scripts/Item/ItemFPSView/FPSWeaponEquipment.cs
+Assets/UnitZ/Scripts/Item/ItemManager.cs
+Assets/UnitZ/Scripts/Item/ItemView/ItemEquipment.cs
+Assets/UnitZ/Scripts/Item/ItemView/ItemSticker.cs
+Assets/UnitZ/Scripts/Item/ItemView/ItemToggleEquipment.cs
+Assets/UnitZ/Scripts/Item/ItemView/ItemWeaponEquipment.cs
+Assets/UnitZ/Scripts/Vehicles/AntiRoll.cs
+Assets/UnitZ/Scripts/Vehicles/Car.cs
+Assets/UnitZ/Scripts/Vehicles/CarControl.cs
+Assets/UnitZ/Scripts/Vehicles/CarDamage.cs
+Assets/UnitZ/Scripts/Vehicles/Seat.cs
+Assets/UnitZ/Scripts/Vehicles/Vehicle.cs
+Assets/UnitZ/Scripts/Vehicles/WheelAlignment.cs
+-r:"C:\Program Files\Unity 2017.2.0b11\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity 2017.2.0b11\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity 2017.2.0b11\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity 2017.2.0b11\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity 2017.2.0b11\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
