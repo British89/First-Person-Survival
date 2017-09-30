@@ -32,7 +32,7 @@ public class EnvironmentManager : NetworkBehaviour {
 		Trees = (TreesManager)GameObject.FindObjectOfType (typeof(TreesManager));
 	}
 	
-	void Update ()
+	/*void Update ()
 	{
 		if (dayNight == null) {
 			dayNight = (DayNightCycle)GameObject.FindObjectOfType (typeof(DayNightCycle));
@@ -43,5 +43,5 @@ public class EnvironmentManager : NetworkBehaviour {
 		
 		dayNight.Timer = dayTimeSync;
 
-	}
+	}*/
 }
